@@ -43,3 +43,8 @@ class Dog extends Animal {
 
 // Create an instance(Object) of the 'Dog' class and make it make its sound.
 let bullDog = new Dog("bullDog", "bark", "fluffy white");
+// bullDog.wagTail();
+// bullDog.setColor();
+
+//call the object to make the sound
+bullDog.makeSound();
