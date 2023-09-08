@@ -16,5 +16,9 @@ class Animal {
 
 // create sub class  'Dog' that inherits from the 'Animal' class
 class Dog extends Animal {
- 
+  // 'Dog' inherits properties for species and sound, and adds an additional property for color.
+  constructor(species, sound, color) {
+    super(species, sound);
+    this.color = color;
   }
+}
