@@ -21,4 +21,14 @@ class Dog extends Animal {
     super(species, sound);
     this.color = color;
   }
+
+  // create sepcific methods for color and tailwagging
+  setColor() {
+    return console.log(`My color is ${this.color}`);
+  }
+  wagTail() {
+    return console.log(
+      `I am  a ${this.species} and I wag my ${this.color} tail when I am happy`
+    );
+  }
 }
