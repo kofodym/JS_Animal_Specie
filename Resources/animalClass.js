@@ -12,3 +12,9 @@ class Animal {
     );
   }
 }
+
+
+// create sub class  'Dog' that inherits from the 'Animal' class
+class Dog extends Animal {
+ 
+  }
