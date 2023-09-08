@@ -5,4 +5,10 @@ class Animal {
     this.species = species;
     this.sound = sound;
   }
+  //method to make animal sound
+  makeSound() {
+    return console.log(
+      ` I am a ${this.species} and I have mouth to ${this.sound}`
+    );
+  }
 }
