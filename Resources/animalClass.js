@@ -13,7 +13,6 @@ class Animal {
   }
 }
 
-
 // create sub class  'Dog' that inherits from the 'Animal' class
 class Dog extends Animal {
   // 'Dog' inherits properties for species and sound, and adds an additional property for color.
@@ -29,6 +28,13 @@ class Dog extends Animal {
   wagTail() {
     return console.log(
       `I am  a ${this.species} and I wag my ${this.color} tail when I am happy`
+    );
+  }
+
+  // Override the make sound method from "Animal" to include the dog's color.
+  makeSound() {
+    return console.log(
+      ` I  am  a ${this.color} ${this.species} and I have mouth to ${this.sound}`
     );
   }
 }
